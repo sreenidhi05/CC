@@ -2,7 +2,7 @@
 
 Exp 1: Working with EC2 Instance.
 
-Task 1: Launch an EC2 Instance using Ubuntu OS Connect to the Instance using SSH and connecting it with ec2 direct connect 
+Task 1: Launch an EC2 Instance using Ubuntu OS Connect to the Instance using SSH and connecting it with ec2 direct connect  
 Task 2: Install Nginx Server on Ec2 Instance Connect to the Nginx webpage using PublicIP
 Task 3: Launch a New Instance using Amazon Linux Connect to the Instance using Putty
 Task 4: Launch an Ec2 Instance using Windows OS Connect to the Instance using RDP 
