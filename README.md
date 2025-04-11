@@ -63,7 +63,7 @@ Task 2: Upload files (HTML, images).
 Task 3: Set proper permissions.  
 Task 4: Enable static website hosting.
 
-Exp 8: Setting up an AWS Lambda function to trigger whenever an object is uploaded to an S3 bucket and update a DynamoDB table
+Exp 8: Setting up an AWS Lambda function to trigger whenever an object is uploaded to an S3 bucket and update a DynamoDB table  
 Task 1: Create a Lambda function.
 			Use: tinyurl.com/kmitdemocode  
 Task 2: Set up API Gateway to invoke Lambda from the s3.  
