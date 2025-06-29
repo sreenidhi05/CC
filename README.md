@@ -1,8 +1,7 @@
 #CC
+
 ---
 Account ID :  975050009504
----
-
 ### **Experiment 1: Working with EC2 Instances**
 
 #### **Task 1: Launch an EC2 Instance using Ubuntu OS and connect using SSH/EC2 Instance Connect**
