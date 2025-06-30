@@ -1,0 +1,30 @@
+IAM Scenarios --
+
+scenario 1
+
+1) From root, create a user, give EC2 full access - by attaching directly.
+2) From root, create a role, use case - ec2, add permissions -- S3FullAccess
+3) login as user and create an instance, connect through ssh - do aws s3 ls - will not get
+4) login as root, select created instance, Actions > Security >  Modify IAM Role > Select your created role.
+5) login as user, ssh connect to instance, do -- aws s3 ls -- output shd not display anything
+
+scenario 2
+
+1) From root, create a user with EC2 full access - by attaching policy directly
+2) From root, create a role, use case - ec2, add permissions -- S3FullAccess
+3) From root, go to user > Permissions > Add permission > Create inline policy - attach the policy code and update the two ARNs
+4) login as user, create an instance, connect through ssh - do aws s3 ls - will not get
+4) SInce, we created a custom inline policy, being in user login also, we can modify the instance's IAM role to created role.
+5) again in console, now do aws s3 ls -- output shd not display anything
+
+scenario 3
+
+1) From root, create a user with EC2 full access - by attaching policy directly
+2) From root, create a role, use case - ec2, add permissions -- S3FullAccess
+3) From root, go to IAM > Policies > Create Policy
+4) paste your policy code (same as inline policy)
+5) Now attach this newly created policy to the user by doing -- Users > Add permission > Add permissions > Select your policy 
+6) login as user, create an instance, connect through ssh - do aws s3 ls -- will not get
+7) being logged in as user, go to your created instance, Actions > Security >  Modify IAM Role > Select your created role.
+8) now do aws s3 ls -- no error
+
