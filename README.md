@@ -4,7 +4,8 @@
 Account ID :  975050009504  
 http://tinyurl.com/cc-lab-internal  
 https://drive.google.com/drive/folders/14nWU8c0-t4pIsrtORJfWee08JT7fRKMK  
-policy ec2 s3.txt : https://drive.google.com/file/d/1GUxojpcbm_9W0ua6JhDjNETmB_jqd2hh/view
+policy ec2 s3.txt : https://drive.google.com/file/d/1GUxojpcbm_9W0ua6JhDjNETmB_jqd2hh/view  
+https://docs.google.com/document/d/1rUtghlbEAosWIwF1eQNcyk_AFtunlPwcbz94nhoYKYQ/edit?tab=t.0
 
 ### **Experiment 1: Working with EC2 Instances**
 
